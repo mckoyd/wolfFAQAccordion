@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import { ReactComponent as IconPlus } from "./assets/images/icon-plus.svg";
 import { ReactComponent as IconMinus } from "./assets/images/icon-minus.svg";
 
@@ -32,7 +32,7 @@ export const QuestionSet: React.FC<IQuestionSet> = ({
       updateQuestionIndex(currentIndex);
       setShowAnswer(true);
     }
-  }, [showAnswer, currentIndex]);
+  }, [showAnswer, currentIndex, CLOSED_INDEX, updateQuestionIndex]);
 
   return (
     <div className="question-set">
