@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wolfFAQAccordion/static/css/main.2c448880.css",
+    "main.js": "/wolfFAQAccordion/static/js/main.a1f96749.js",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/wolfFAQAccordion/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
+    "static/media/WorkSans-Italic-VariableFont_wght.ttf": "/wolfFAQAccordion/static/media/WorkSans-Italic-VariableFont_wght.909e4faac8822880e462.ttf",
+    "static/media/background-pattern-mobile.svg": "/wolfFAQAccordion/static/media/background-pattern-mobile.bbadbddabee663bba8884648e253e5d2.svg",
+    "static/media/background-pattern-desktop.svg": "/wolfFAQAccordion/static/media/background-pattern-desktop.621478cf83f8150af60411d3765de0eb.svg",
+    "index.html": "/wolfFAQAccordion/index.html",
+    "static/media/icon-star.svg": "/wolfFAQAccordion/static/media/icon-star.189fd38b8aefdc8fbe0d4008b1ff497e.svg",
+    "static/media/icon-plus.svg": "/wolfFAQAccordion/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
+    "static/media/icon-minus.svg": "/wolfFAQAccordion/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
+    "main.2c448880.css.map": "/wolfFAQAccordion/static/css/main.2c448880.css.map",
+    "main.a1f96749.js.map": "/wolfFAQAccordion/static/js/main.a1f96749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c448880.css",
+    "static/js/main.a1f96749.js"
+  ]
+}
