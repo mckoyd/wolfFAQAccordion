@@ -21,7 +21,7 @@ export const QuestionSet: React.FC<IQuestionSet> = ({
 }) => {
   const CLOSED_INDEX = -1;
   const [showAnswer, setShowAnswer] = useState<boolean>(
-    currentIndex == questionIndex
+    currentIndex === questionIndex
   );
 
   const handleQuestionClick = useCallback(() => {
@@ -38,13 +38,13 @@ export const QuestionSet: React.FC<IQuestionSet> = ({
     <div className="question-set">
       <div className="question-title" onClick={handleQuestionClick}>
         <p className="question">{question}</p>
-        {questionIndex == currentIndex ? (
+        {questionIndex === currentIndex ? (
           <IconMinus className="icon minus" />
         ) : (
           <IconPlus className="icon plus" />
         )}
       </div>
-      {questionIndex == currentIndex && <p className="answer">{answer}</p>}
+      {questionIndex === currentIndex && <p className="answer">{answer}</p>}
       {!isLastQuestion && <hr className="divider" />}
     </div>
   );

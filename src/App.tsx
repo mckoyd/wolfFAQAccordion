@@ -44,7 +44,7 @@ const App: React.FC = () => {
             updateQuestionIndex={updateQuestionIndex}
             question={questionObject.question}
             answer={questionObject.answer}
-            isLastQuestion={questions.length - 1 == currentIndex}
+            isLastQuestion={questions.length - 1 === currentIndex}
             key={`${questionObject.question}-${currentIndex}`}
           />
         ))}
